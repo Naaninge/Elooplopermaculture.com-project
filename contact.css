@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap');
 
 .hero{
-    background-image: url(pexels-lisa-1172019.jpg);/*change background*/
+    background-image: url(home.jpg);/*change background*/
     background-size: cover;
     height:800px;
     font-family: 'Almarai', sans-serif;
