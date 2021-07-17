@@ -1,70 +1,103 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
+   
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="contact.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/Website/Images/elooloperman Logo.jpeg">
 
- <link href="contact.css" rel="stylesheet">
+ 
  <script src="https://kit.fontawesome.com/a90244f10c.js" crossorigin="anonymous"></script>
     <title> CSS practice</title>
   </head>
   <body>
-    <!--edit navbar-->
+    
     <div class="container-fluid hero">
-        <nav class="navbar navbar-expand-lg navbar-dark nav-items " >
-            <div class="container-fluid">
-                <a class="navbar-brand text text-brand" href="#" >Eloolo</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+     
+           <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark" id="mynav">
+      <!-- Container for Elooloperman logo -->
+      <div class="container">
+          <a class="navbar-brand" href="http://www.eloolopermaculture.com"><h1>Eloolo</h1><h6>Permaculture Initiative</h6></a>
+
+          <!-- Hamburger Button -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse p-3" id="#navmenu">
+              <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active text " aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active text" href="aboutUs.html">About Us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active text" href="premecuture.html">What is Premaculture</a>
-                  </li>
-                  
-                  <li class="nav-item dropdown ">
-                    <a class="nav-link dropdown-toggle active" href="projects.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Projects
-                    </a>
-                    <ul class="dropdown-menu nav-drop" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item drop-item" href="cleanTravel.html">Clean Travel</a></li>
-                      <li><a class="dropdown-item drop-item" href="klippdachs.html">Klippdachs Kaserne</a></li>
-                      <li><a class="dropdown-item drop-item" href="farm.html">Farm Okukuna</a></li>
-                    </ul>
+                      <!-- Weblink 1 -->
+                      <a href="#Home" class="nav-link" id="HoMe">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="donate.html">Donate</a>
+                      <!-- Weblink 2 -->
+                      <a href="#What is Permaculture?" class="nav-link">What is Permaculture?</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link contact active" href="contact.html">Contact Us </a>
+                      <!-- Weblink 3 -->
+                      <a href="/Website/About Section.html" class="nav-link">About Us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <!-- Weblink 4 with dropdown menu-->
+                      <a href="#Contact Us" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button">Contact Us</a>
+                      <ul class="dropdown-menu bg-dark text-center ">
+                          <li class="dropdown-item">info@eloolopermaculture.com</li>
+                          <li class="dropdown-item">
+                              <a href="https://www.facebook.com/eloolopermaculture/" id="elf-tag">eloopermaculture facebook</a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <!-- Weblink 5 -->
+                      <a href="projects.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button">Projects</a>
+                      <ul class="dropdown-menu bg-dark text-center">
+                          <li class="dropdown-item"><a href="cleanTravel.html">Clean Travel</a></li>
+                          <li class="dropdown-item"><a href="klippdachs.html">Klippdachs Kaserne</a></li>
+                          <li class="dropdown-item"><a href="farm.html">Farm Okukuna</a></li>
+                      </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active facebook" href="#"><i class="fab fa-facebook-square"></i></i></a>
+                      <!-- Weblink 6 -->
+                      <a href="#Donate" class="nav-link">Donate</a>
+                  </li>
+
+                  <!-- Weblink Social Media Links-->
+                  <li class="nav-item mx-1">
+                      <!-- Facebook link -->
+                      <a href="https://www.facebook.com/eloolopermaculture/" class="nav-link">
+                        <i class="fab fa-facebook-square"></i>
+                      </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link " href="#"><button type="button" class="btn login">Login <i class="fas fa-sign-in-alt"></i></button></a>
+                      <!-- Add another Social Media Link Here -->
+                      <a href="#Uhm Twitter?" class="nav-link">
+                          <img src="/Website/Images/Icons/icons8-twitter-48.png" alt="" class="img-fluid w-50">
+                      </a>
                   </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+
+                  <!-- Login/Reg Link -->
+                  <li class="nav-item mx-5">
+                      <a href="#Login" class="nav-link">
+                          Login <i class="fas fa-user"></i>
+                      </a>
+                  </li>
+
+              </ul>
+          </div>
+      </div>
+  </nav>
 
           <div class=" text-white hero-heading">Contact Us</div>
          
     </div>
 
-  
+  <!--contact-form-->
     <div class="container-fluid">
       <div class="row form-row">
       
@@ -98,7 +131,7 @@
       </div>
     </div>
 
-
+        <!--Footer-->
       <div class="container-fluid footer bg-dark text-white">  
         <div class="row footer-row">
           <div class="col-sm-4 footer-col">
@@ -130,8 +163,7 @@
           </div>
       </div>
       <hr>
-      <!--add patners-->
-      <p>Patners</p>
+    
       </div>
 
 
@@ -139,7 +171,7 @@
 
     
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
  
