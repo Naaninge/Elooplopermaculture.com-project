@@ -1,0 +1,19 @@
+.hero{
+    background-image: url(pexels-lisa-1172019.jpg);
+    background-size: cover;
+    height:800px;
+}
+
+.footer{
+    padding: 200px;
+    margin-top: 10px;
+}
+
+
+.prema{
+    text-decoration: underline;
+    text-decoration-color: gray;
+}
+.section{
+    padding-top: 10px;
+}

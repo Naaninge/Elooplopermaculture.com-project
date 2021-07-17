@@ -144,8 +144,14 @@ border-radius: 0;
     margin: 60px;
 }
 
+.links a{
+    color: white;
+    text-decoration: none;
+    
+}
 .dropdown-menu li{
     color: ghostwhite;
+    
 }
 #HoMe{
     color: green;
