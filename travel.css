@@ -74,7 +74,10 @@ ul li{
 
    
 }
-
+.col-links:hover{
+color:white;
+background-color: black;
+}
 .link-button:hover{
     padding: 5px;
     background-color: white;
