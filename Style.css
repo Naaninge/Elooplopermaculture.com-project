@@ -1,0 +1,35 @@
+body {
+    height: 1500px;
+    background-color: transparent;
+}
+/* Scroll bar width */
+body::-webkit-scrollbar{
+    border: 0px solid transparent;
+    width: 5px;
+}
+
+/* Scroll bar track */
+body::-webkit-scrollbar-track{
+    border-radius: 10px;
+}
+
+/* Scroll bar handle */
+body::-webkit-scrollbar-thumb {
+    background-color:  rgb(27, 17, 17);
+    border-radius: 10px;
+
+}
+
+.dropdown-menu li{
+    color: ghostwhite;
+}
+#HoMe{
+    color: green;
+}
+#AboutUs{
+    color: green;
+}
+
+#elf-tag{
+    text-decoration: none;
+}
