@@ -278,7 +278,9 @@ background-color: #FFBF00;
     font-family: 'Dosis', sans-serif;     
 }
 @media screen and (max-width: 992px) {
-    
+.footer-row{
+    display: inline-block;
+}
   }
 
 
