@@ -11,6 +11,22 @@
     font-family: 'Almarai', sans-serif;
    margin-bottom: 50px;
 }
+body::-webkit-scrollbar{
+    border: 0px solid transparent;
+    width: 5px;
+}
+
+/* Scroll bar track */
+body::-webkit-scrollbar-track{
+    border-radius: 10px;
+}
+
+/* Scroll bar handle */
+body::-webkit-scrollbar-thumb {
+    background-color:  rgb(27, 17, 17);
+    border-radius: 10px;
+
+}
 #mynav{
     background-color:black;
    
