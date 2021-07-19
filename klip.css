@@ -186,4 +186,8 @@ ul li{
 .footer-row{
     display: inline-block;
 }
+     .wrapper{
+        position: absolute;
+        left:-5%;
+    }
   }
