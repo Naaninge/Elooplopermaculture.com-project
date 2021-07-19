@@ -182,19 +182,19 @@ ul li{
 .footer-list h3{
     margin-left:30px;
 } 
- footer {
+.footers {
     display: flex;
     flex-flow: row wrap;
     padding: 50px;
     color: #fff;
-    background-color: rgb(27, 25, 25);
+     font-family: 'Roboto' ,sans-serif;
     }
     
-    .footer > * {
+    .footers > * {
     flex:  1 100%;
     }
     
-    .l-footer {
+    .l-footers {
     margin-right: 1.25em;
     margin-bottom: 2em;
     }
@@ -204,16 +204,16 @@ ul li{
    
     }
     
-    .footer ul {
+    .footers ul {
     list-style: none;
     padding-left: 0;
     }
     
-    .footer li {
+    .footers li {
     line-height: 2em;
     }
     
-    .footer a {
+    .footers a {
     text-decoration: none;
     }
     
@@ -251,7 +251,7 @@ ul li{
     
     
     .l-footer {
-    flex: 1 0px;
+    flex: 0px;
     }
     
     .r-footer {
