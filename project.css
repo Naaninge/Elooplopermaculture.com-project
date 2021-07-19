@@ -231,4 +231,9 @@ ul li{
     .hero {
      margin-bottom: 500px;
     }
+       .footer-row{
+    display: inline-block;
+}
   }
+
+
