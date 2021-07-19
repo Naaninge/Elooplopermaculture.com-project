@@ -197,3 +197,8 @@ border-radius: 0;
     margin-left:30px;
     
    }
+@media screen and (max-width: 992px) {
+.footer-row{
+    display: inline-block;
+}
+  }
