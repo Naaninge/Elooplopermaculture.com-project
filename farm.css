@@ -254,4 +254,7 @@ background-color: black;
     height: fit-content;
     width: 450px;
     }
+    .footer-row{
+        display:inline-block;
+    }
   }
