@@ -257,4 +257,8 @@ background-color: black;
     .footer-row{
         display:inline-block;
     }
+      .wrapper{
+        position: absolute;
+        left:-5%;
+    }
   }
