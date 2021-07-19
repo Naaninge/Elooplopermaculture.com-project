@@ -182,3 +182,8 @@ ul li{
 .footer-list h3{
     margin-left:30px;
 } 
+@media screen and (max-width: 992px) {
+.footer-row{
+    display: inline-block;
+}
+  }
