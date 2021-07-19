@@ -4,7 +4,7 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&family=Tangerine:wght@400;700&display=swap');
 .hero{
-    background-image: url(Dark\ Green\ Plant.jpg);
+    background-image: url(background.jpg);
     background-size: cover;
     height:800px;
     font-family: 'Almarai', sans-serif;
