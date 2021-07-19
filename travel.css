@@ -281,6 +281,10 @@ background-color: #FFBF00;
 .footer-row{
     display: inline-block;
 }
+     .wrapper{
+        position: absolute;
+        left:-5%;
+    }
   }
 
 
